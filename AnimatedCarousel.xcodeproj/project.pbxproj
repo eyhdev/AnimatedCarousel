@@ -11,6 +11,10 @@
 		0E52126228B0023E00768F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52126128B0023E00768F7C /* ContentView.swift */; };
 		0E52126428B0024200768F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E52126328B0024200768F7C /* Assets.xcassets */; };
 		0E52126728B0024200768F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E52126628B0024200768F7C /* Preview Assets.xcassets */; };
+		0E52126F28B0028100768F7C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52126E28B0028000768F7C /* Movie.swift */; };
+		0E52127228B0038F00768F7C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52127128B0038F00768F7C /* Home.swift */; };
+		0E52127628B0093A00768F7C /* CustomCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52127528B0093A00768F7C /* CustomCarousel.swift */; };
+		CF3CFE6F28B4D6A1008B12D0 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CFE6E28B4D6A1008B12D0 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0E52126128B0023E00768F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E52126328B0024200768F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E52126628B0024200768F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E52126E28B0028000768F7C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0E52127128B0038F00768F7C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0E52127528B0093A00768F7C /* CustomCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarousel.swift; sourceTree = "<group>"; };
+		CF3CFE6E28B4D6A1008B12D0 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		0E52125E28B0023E00768F7C /* AnimatedCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				0E52127028B0038700768F7C /* View */,
+				0E52126D28B0024F00768F7C /* Model */,
 				0E52125F28B0023E00768F7C /* AnimatedCarouselApp.swift */,
 				0E52126128B0023E00768F7C /* ContentView.swift */,
 				0E52126328B0024200768F7C /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				0E52126628B0024200768F7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E52126D28B0024F00768F7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CFE6E28B4D6A1008B12D0 /* Tab.swift */,
+				0E52126E28B0028000768F7C /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E52127028B0038700768F7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E52127128B0038F00768F7C /* Home.swift */,
+				0E52127528B0093A00768F7C /* CustomCarousel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E52126228B0023E00768F7C /* ContentView.swift in Sources */,
+				0E52127628B0093A00768F7C /* CustomCarousel.swift in Sources */,
 				0E52126028B0023E00768F7C /* AnimatedCarouselApp.swift in Sources */,
+				CF3CFE6F28B4D6A1008B12D0 /* Tab.swift in Sources */,
+				0E52127228B0038F00768F7C /* Home.swift in Sources */,
+				0E52126F28B0028100768F7C /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
